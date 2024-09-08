@@ -7,6 +7,7 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+    wait-time-in-ms-when-sync-empty: 100
 logging:
   level:
     com.netflix.eureka: DEBUG
